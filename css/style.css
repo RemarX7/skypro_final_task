@@ -5,7 +5,7 @@
 body {
 	width: 100%;
 	margin: 0px;
-	background-image: url(../img/bg.jpg);
+	background-image: url(../img/bg.png);
 	background-repeat: repeat-y no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -53,16 +53,10 @@ body {
 	.name {
 		text-align: center;
 		font-size: 2.8em;
-		color: gainsboro;
+		color: rgb(73, 20, 94);
 		margin-top: 15%;
 		margin-bottom: auto;
 		text-transform: capitalize;
-	}
-	hr {
-		width: 93%;
-		height: 2px;
-		background-color: gainsboro;
-		border: 0px;
 	}
 	.subtitle {
 		text-align: center;
@@ -88,6 +82,17 @@ body {
 		margin-right: 7%;
 		border-radius: 8px;
 	}
+	.location_menu {
+		text-align: center;
+		color: white;
+		font-size: 1.5em;
+		display: block;
+		background-color: rgba(175,133,255,1);
+		padding: 10px;
+		margin-left: 32%;
+		margin-right: 33%;
+		border-radius: 8px;
+	}
 }
 
 @media (min-width: 100px) and (max-width: 728px) and (orientation:portrait) {
@@ -96,12 +101,6 @@ body {
 		margin: 0px;
 		background: url(../img/bg.jpg) fixed no;
 		overflow-x: hidden;
-	}
-	hr {
-		width: 93%;
-		height: 2px;
-		background-color: gainsboro;
-		border: 0px;
 	}
 	.card {
 		margin-top: 10%;
@@ -127,7 +126,7 @@ body {
 		padding-left: 4px;
 		text-align: center;
 		font-size: 2.5em;
-		color: gainsboro;
+		color: rgb(73, 20, 94);
 		margin-top: 16%;
 		margin-bottom: auto;
 		text-transform: capitalize;
@@ -156,6 +155,17 @@ body {
 		margin-right: 7%;
 		border-radius: 8px;
 	}
+	.location_menu {
+		text-align: center;
+		color: white;
+		font-size: 0.8em;
+		display: block;
+		background-color: rgba(175,133,255,1);
+		padding: 10px;
+		margin-left: 32%;
+		margin-right: 33%;
+		border-radius: 8px;
+	}
 }
 
 @media (min-width: 100px) and (max-width: 728px) and (orientation:landscape) {
@@ -164,12 +174,6 @@ body {
 		margin: 0px;
 		background: url(../img/bg.jpg) fixed no;
 		overflow-x: hidden;
-	}
-	hr {
-		width: 93%;
-		height: 2px;
-		background-color: gainsboro;
-		border: 0px;
 	}
 	.card {
 		margin-top: 6%;
@@ -195,7 +199,7 @@ body {
 		padding-left: 4px;
 		text-align: center;
 		font-size: 2.8em;
-		color: gainsboro;
+		color: rgb(73, 20, 94);
 		margin-top: 16%;
 		margin-bottom: auto;
 		text-transform: capitalize;
@@ -224,6 +228,17 @@ body {
 		margin-right: 7%;
 		border-radius: 8px;
 	}
+	.location_menu {
+		text-align: center;
+		color: white;
+		font-size: 1.5em;
+		display: block;
+		background-color: rgba(175,133,255,1);
+		padding: 10px;
+		margin-left: 32%;
+		margin-right: 33%;
+		border-radius: 8px;
+	}
 }
 
 @media only screen and (min-width: 728px) and (max-width: 1000px) {
@@ -232,12 +247,6 @@ body {
 		margin: 0px;
 		background: url(../img/bg.jpg) fixed no;
 		overflow-x: hidden;
-	}
-	hr {
-		width: 93%;
-		height: 2px;
-		background-color: gainsboro;
-		border: 0px;
 	}
 	.card {
 		margin-top: 4%;
@@ -261,7 +270,7 @@ body {
 	.name {
 		text-align: center;
 		font-size: 2.5em;
-		color: gainsboro;
+		color: rgb(73, 20, 94);
 		margin-top: 16%;
 		margin-bottom: auto;
 		text-transform: capitalize;
@@ -288,6 +297,17 @@ body {
 		padding: 10px;
 		margin-left: 7%;
 		margin-right: 7%;
+		border-radius: 8px;
+	}
+	.location_menu {
+		text-align: center;
+		color: white;
+		font-size: 1.8em;
+		display: block;
+		background-color: rgba(175,133,255,1);
+		padding: 10px;
+		margin-left: 32%;
+		margin-right: 33%;
 		border-radius: 8px;
 	}
 }
